@@ -1,0 +1,84 @@
+@{
+    ViewData["Title"] = " Articles ";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .card {
+            margin-bottom: 20px;
+            height: 80%;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">@ViewData["Title"]</h2>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Creating a Like Button that Increments When Clicked</h5>
+                        <p class="card-text">
+                            Learn how to implement a like button in your web application that dynamically updates the like count every time it's clicked. This tutorial covers JavaScript and backend integration. 
+                            <a href="https://medium.com/zablon.nyabuto/creating-a-like-button-that-increments-when-clicked-50d841a189c9" target="_blank">Read more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Understanding MVC Architecture in .NET</h5>
+                        <p class="card-text">
+                            An overview of the Model-View-Controller (MVC) architecture pattern, its benefits in .NET development, and how to effectively structure your projects for maintainability and scalability.
+                            <a href="https://medium.com/zablon.nyabuto/another-article-link-2" target="_blank">Read more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Tips for Optimizing SQL Queries in .NET</h5>
+                        <p class="card-text">
+                            Improve the performance of your .NET applications by learning advanced SQL optimization techniques. This guide covers indexing, query tuning, and best practices for database interaction.
+                            <a href="https://medium.com/zablon.nyabuto/another-article-link-3" target="_blank">Read more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Secure Coding Practices in Web Development</h5>
+                        <p class="card-text">
+                            Explore the essential practices for writing secure code in web development. This article delves into authentication, authorization, data validation, and how to protect against common vulnerabilities.
+                            <a href="https://medium.com/zablon.nyabuto/another-article-link-4" target="_blank">Read more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
